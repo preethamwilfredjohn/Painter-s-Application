@@ -1415,7 +1415,7 @@ function Blur_onmousemove(e){
         //apply gausian blur
         var filterCanvas = document.getElementById("filterBox");
         var filterContext = filterCanvas.getContext('2d');
-        filterContext.filter = 'blur(10px)';
+        filterContext.filter = 'blur(2px)';
         filterContext.drawImage(tempCanvas, 0, 0);
         
         //retrieve blurred image
